@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-//
-//
+// we make a variable called number and set its value to 1;
+// we increment the number value by one so now the value is 2;
+// we check a conditional statement if the value of number is greater than or equal to 2 we console log yes
+// number is equal to 2 so we would console log yes.
 //
 //
 //
@@ -48,10 +48,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we make a variable name and set it equal to the string "Dane"
+// we run it through the conditional if the name variable is strict equals to mary we console log "Hi Mary"
+// if the name is not strict equals we console log How do you do?
+// the name is not equal to Mary so here we would console log How do you do?
 
 //CODE
 /*
@@ -73,10 +73,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// created secret variable which is set to undefined, and we created a code variable set to 123
+// we run through a few conditionals, if code value is strict equals 123, secret's value is the string "Super" and code is set to the value of code * 2 which is 246.
+// code is equal to 123 so the new values of secret = super and code = 246
+// we go through another conditional that would change secret to "duper" if code is greater than 250, but that is not the case so no change occurs
+// console log secret which would be super
 
 //CODE
 /*
@@ -93,6 +94,14 @@ if (isStudent === true && zip > 80000 ) {
 } else {
   console.log('How about the weather?')
 }
+
+we create isStudent and set it to boolean true, we create age and set it to 36, and we create zip and set it to 55407 (even though 55408 is where the vibes are the best)
+we run through condition 1 if isStudent is strict equals true and zip is greater than 80000 we console you're a student on the west coast.
+and must have both statements true to be true, but the zip is not greater than 80000 so its false and we move down to next conditional
+next one says if isStudent is false or age is less than 30 we console log, with or we only need one statement to be true for it to be true, but both statements are false so next one
+next conditional is isStudent strict equals true console log welcome to prime! it is true so we console log "Welcome to Prime!"
+we don't hit the else statement because the previous statement is true, but if it was false and all other statements were false we'd hit "How about the weather"
+note: if isStudent was originally set to false, we would've hit the "What are your hobbies" statement because only one statement has to be true, so in this case it's impossible to hit the else statement
 
 */
 
