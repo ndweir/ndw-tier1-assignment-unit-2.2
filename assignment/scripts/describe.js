@@ -142,12 +142,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+! colorOne and colorTwo should be switched
+! colorOne = "blue"
+! colorTwo = "red"
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  ! colorTwo = 'purple'
 }
 */
 
@@ -158,7 +162,10 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+! let time =  4; it says variables not const maybe being picky, but being specific matters
 
+! we have an or statement, but we need an and statement
+! we should replace || with &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -171,11 +178,18 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+! let minAge = 21; that'd be a variable not a constant!
 
+
+! we're checking in minAge is less than or equal to age, which is implicitly correct, but explicitly wrong
+! should be if (age >= minAge)
+! we switched the console logs!
 if(minAge <= age) {
   console.log('no entry');
+  ! console.log('enter')
 } else {
   console.log('enter');
+  ! console.log('no entry')
 }
 */
 
